@@ -1,0 +1,23 @@
+{
+  "name": "wtlo-bestiary-local",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storage:info": "node scripts/storage-info.mjs",
+    "storage:backup": "node scripts/backup-storage.mjs",
+    "storage:reset": "node scripts/reset-storage.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.2.2"
+  },
+  "description": "WTLO Bestiary with machine-local JSON and image file persistence."
+}

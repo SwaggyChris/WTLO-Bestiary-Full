@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Machine-local runtime files. Keep the folders, but do not accidentally publish personal edits/images.
+storage/backups/*.json
+storage/images/*
+!storage/images/.gitkeep
+!storage/backups/.gitkeep
